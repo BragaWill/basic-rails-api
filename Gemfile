@@ -8,6 +8,8 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'devise'
 
+gem 'simple_token_authentication', '~> 1.0'
+
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
