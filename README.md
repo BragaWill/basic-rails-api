@@ -24,11 +24,10 @@ Here are Core Gems used in this project.
 - To install gems:
   > $ bundle install
 - To create the bank and do as migrations:
-  > $ rails db:create db:migrate 
+  > $ rails db:create db:migrate db:seed
 - To run the project:
   > $ rails s
-- To create a user on the rails console to obtain the access key
-  > $ rails c 
+ 
 
 ## Versioning
 
