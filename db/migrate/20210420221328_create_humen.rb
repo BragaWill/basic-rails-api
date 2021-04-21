@@ -1,9 +1,9 @@
 class CreateHumen < ActiveRecord::Migration[6.1]
   def change
     create_table :humen do |t|
-      t.string :name
-      t.datetime :birth
-      t.string :cpf
+      t.string :name, null: false
+      t.datetime :birth, null: false
+      t.string :cpf, null: false, unique: true
       t.references :user, foreign_key: true
 
       t.timestamps

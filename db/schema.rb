@@ -16,9 +16,9 @@ ActiveRecord::Schema.define(version: 2021_04_20_221328) do
   enable_extension "plpgsql"
 
   create_table "humen", force: :cascade do |t|
-    t.string "name"
-    t.datetime "birth"
-    t.string "cpf"
+    t.string "name", null: false
+    t.datetime "birth", null: false
+    t.string "cpf", null: false
     t.bigint "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
